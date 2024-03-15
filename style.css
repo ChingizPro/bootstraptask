@@ -1,0 +1,7 @@
+.whitebox {
+    padding-bottom: 100px !important;
+    background-image: url('bicycle.png');
+    background-size: 500px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
