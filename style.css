@@ -5,3 +5,36 @@
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+
+@media(max-width: 1350px){
+    .whitebox {
+        width: auto !important;
+        max-width: 800px;
+    }
+}
+@media(max-width: 750px){
+    .wrapper {
+        padding: 10px !important;
+    }
+    .whitebox {
+        padding: 15px !important;
+        background-image: none;
+        text-align: center;
+    }
+    .whitebox * {
+        line-height: 1.5 !important;
+    }
+    .myrow {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .myrow > * {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .topdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+}
